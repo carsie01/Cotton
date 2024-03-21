@@ -401,13 +401,15 @@ background-color:#F2EBE8 ;}
 }
 
 @media only screen and (min-width:600px) and (max-width: 1100px) {
-
+h1{font-size: 60px;}
+h2{font-size: 40px;}
+h2{font-size: 30px;}
     header{
         display: flex;
         justify-content: center;
        background-image: url(cottonbillder/header.png);
        background-size: cover;
-       background-color: #CBC1B5;
+       background-color: #F2EBE8;
     }
     nav{display: flex;
         align-items: center;
@@ -418,15 +420,13 @@ background-color:#F2EBE8 ;}
     
     
     .hero{display: flex;
-        position: absolute;
-        left: 0;
         width: 100%;
-        height: 100px;
         background-image: url(cottonbillder/Group\ 59-3.png);
         background-size: cover;
         flex-direction: column;
-        min-height: 300px;
+        min-height: 500px;
         align-items: center;
+        background-color: #F2EBE8;
     }
     .herotekst{
         display: flex;
@@ -436,18 +436,20 @@ background-color:#F2EBE8 ;}
         
     }
     .cotton{
-        height: 50px;
-        width: 200px;
+        height: 150px;
+        width: 300px;
+        display: flex;
+        align-self: flex-end;
         
     }
-    .intro{position: absolute;
-        bottom: 130px;
-        right: 0;
+    .intro{display: flex;
         width: 100%;
         height: 500px;
+        z-index: 1;
         background-image: url(cottonbillder/Group\ 59.png);
         background-size: cover;
         flex-direction: column;
+        background-color: #F2EBE8;
     }
     .introtekst{
         display: flex;
@@ -456,19 +458,19 @@ background-color:#F2EBE8 ;}
       justify-self: center;
       justify-items: center;
       padding: 20px;
-      margin-top: 150px;
+      margin-top: 15px;
+      max-width: 500px;
     
     }
     .valg{
         display: flex;
-        bottom: 0px;
-        position: absolute;
-        left: 0;
         width: 100%;
-        height: 200px;
+        height: 400px;
         background-image: url(cottonbillder/Rectangle\ 22.png);
         background-size: cover;
         flex-direction: column;
+        background-color: #F2EBE8;
+        justify-content: center;
         
     
     }
@@ -477,7 +479,8 @@ background-color:#F2EBE8 ;}
         flex-direction: column;
         justify-content: center;
         align-self: center;
-        padding-top: 30px;
+        align-items: center;
+        padding-top: 100px;
     
     
     }
@@ -491,8 +494,8 @@ background-color:#F2EBE8 ;}
        justify-content: space-around;
     }
     .ikon{display: flex;
-        height: 60px;
-        width: 60px;
+        height: 80px;
+        width: 80px;
         padding-left: 15px;
         padding-right: 6px;
     
@@ -512,19 +515,19 @@ background-color:#F2EBE8 ;}
         
     
     }
-    .eddievideo{height: 500px;}
-    .backvideo{ position: absolute;
+    .eddievideo{height: 400px;}
+    .backvideo{ display: flex;
         right: 0;
-        top:800px;
-        z-index: -1;
-       height: 300px;
+        bottom:0;
+       height: 600px;
        width: 100%;
+       z-index: -1;
        background-color: #F2EBE8;
        object-fit: cover;
     }
     /*cotton side */
     .herocotton{ display: flex;
-        height: 250px;
+        height: 400px;
         width: 100%;
        background-image: url(cottonbillder/Skærmbillede\ 2024-03-18\ kl.\ 20.36.58.png);
        background-color: #F2EBE8;
@@ -547,29 +550,40 @@ background-color:#F2EBE8 ;}
         background-color: #BBAA99;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 400px;
+        height: 550px;
         padding: 40px;
+        display: flex;
+        justify-content: center;
+        padding-top: 80px;
+        
     
     
     
     }
     .cottondetular{ display: flex;
     flex-direction: column;
-    text-align: center;}
+    text-align: center;
+    max-width: 600px;
+  }
     
     .h3c{ font-family: "omnes-cyrillic-semicondensed", sans-serif;
         font-weight: 900;
         font-style: normal;
     color: #584132;
+  
     
     }
     
     .grundetilcotton{
         display: flex;
+        justify-content: center;
     background-color: #F2EBE8;
         background-image: url(cottonbillder/Group\ 59-2.png);
         background-size: cover;
         background-repeat: no-repeat;
+        padding-top: 40px;
+        padding-bottom: 40px;
+      
     
     }
     
@@ -578,14 +592,16 @@ background-color:#F2EBE8 ;}
         flex-direction: column;
         text-align: center;
     padding: 40px;
+    max-width: 600px;
     
     }
     .cottontekst{text-align: left;
     padding-top: 20px;
     }
     .grund{display: flex;
-       gap: 30px;
+       gap: 50px;
         align-items: center;
+        padding-top: 40px;
     
     
     }
@@ -593,11 +609,11 @@ background-color:#F2EBE8 ;}
     /*--triks side-- */
     .herotriks{ display: flex;
         align-content: center;
-        height: 250px;
+        height: 400px;
     
     }
-    .trikstekst{height: 250px;
-        padding: 30px;
+    .trikstekst{height: 350px;
+        padding: 50px;
     
     }
     
@@ -605,7 +621,7 @@ background-color:#F2EBE8 ;}
         right: 0;
         top:0;
         z-index: -1;
-       height: 400px;
+       height: 500px;
        width: 100%;
        object-fit: cover;
        filter: brightness(70%);}
@@ -614,17 +630,25 @@ background-color:#F2EBE8 ;}
     background-image: url(cottonbillder/Group\ 59-2-kopi.png); 
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+        padding-bottom: 40px;
+
     }
     
     .triksguide2{display: flex;
         flex-direction: column;
         text-align: center;
     padding: 40px;
+    max-width: 600px;
+    
     
     }
     .triksguide3{ display: flex;
-        gap: 30px;
-         align-items: center;}
+        gap: 50px;
+         align-items: center;
+         padding-top: 40px;}
     
     
           /*  kost side */
@@ -737,12 +761,12 @@ background-color:#F2EBE8 ;}
     
     }
     
-    .footerimg{height: 200px;
+    .footerimg{height: 400px;
         background-image: url(cottonbillder/Group\ 66.png);
         background-size: cover;
         background-repeat: no-repeat;
         position: absolute;
-        top:1000px;
+        top:2000px;
         width: 100%;
         background-color: #F2EBE8;
     
@@ -755,7 +779,7 @@ background-color:#F2EBE8 ;}
     footer{
         height: 200px
     }
-    .footerimg2{height: 200px;
+    .footerimg2{height: 400px;
         background-image: url(cottonbillder/Group\ 66.png);
         background-size: cover;
         background-repeat: no-repeat;

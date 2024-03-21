@@ -146,23 +146,22 @@ nav{display: flex;
     
 
 }
-.eddievideo{height: 600px;}
+.eddievideo{height: 500px;}
 .backvideo{ position: absolute;
     right: 0;
-    top:700px;
+    top:800px;
     z-index: -1;
-   height: 600px;
+   height: 300px;
    width: 100%;
+   background-color: #F2EBE8;
    object-fit: cover;
-   filter: brightness(70%);
-
 }
 /*cotton side */
 .herocotton{ display: flex;
     height: 250px;
     width: 100%;
    background-image: url(cottonbillder/Skærmbillede\ 2024-03-18\ kl.\ 20.36.58.png);
-   background-color: #CBC1B5;
+   background-color: #F2EBE8;
    background-size: cover;
    background-repeat: no-repeat;
    align-items: center;
@@ -331,8 +330,74 @@ padding: 40px;
 .foder3{text-align: center;
 
 }
+.pelsogpleje{background-image: url(cottonbillder/Group\ 35.png);
+    background-color: #F2EBE8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
 
+}
+.pogp{display: flex;
+    padding: 30px;
 
+}
+.pelsimg{
+    width: 300px;
+    padding: 30px;
+}
+.pelsogpleje2{padding: 30px;
+    text-align: center;
+}
+.Klipning{background-color: #F2EBE8;
+    background-image: url(cottonbillder/Group\ 59-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+.Klipning1{display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    padding-top: 50px;
+
+}
+.Klipning2{padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.footerimg{height: 200px;
+    background-image: url(cottonbillder/Group\ 66.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:1000px;
+    width: 100%;
+    background-color: #F2EBE8;
+
+}
+.footertekst{
+display: flex;
+padding-top: 100px;
+padding-left:200px ;
+}
+footer{
+    height: 200px
+}
+.footerimg2{height: 200px;
+    background-image: url(cottonbillder/Group\ 66.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+background-color:#F2EBE8 ;}
+.footertekst2{display: flex;
+    padding-top: 100px;
+    padding-left:200px ;}
+   
 }
 
 @media only screen and (min-width:600px) and (max-width: 1100px) {
@@ -346,33 +411,358 @@ padding: 40px;
     }
     nav{display: flex;
         align-items: center;
-        gap: 20px;
+        gap: 5%;
     
     }
     .logo{ max-width: 80px;}
-    .forside{ background-image: url(cottonbillder/Group\ 65-4.png);
+    
+    
+    .hero{display: flex;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background-image: url(cottonbillder/Group\ 59-3.png);
         background-size: cover;
+        flex-direction: column;
+        min-height: 300px;
+        align-items: center;
+    }
+    .herotekst{
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        padding-top: 40px;
+        
+    }
+    .cotton{
+        height: 50px;
+        width: 200px;
+        
+    }
+    .intro{position: absolute;
+        bottom: 130px;
+        right: 0;
+        width: 100%;
+        height: 500px;
+        background-image: url(cottonbillder/Group\ 59.png);
+        background-size: cover;
+        flex-direction: column;
+    }
+    .introtekst{
+        display: flex;
+        flex-direction: column;
+      justify-content: center;
+      justify-self: center;
+      justify-items: center;
+      padding: 20px;
+      margin-top: 150px;
+    
+    }
+    .valg{
+        display: flex;
+        bottom: 0px;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 200px;
+        background-image: url(cottonbillder/Rectangle\ 22.png);
+        background-size: cover;
+        flex-direction: column;
+        
+    
+    }
+    .valgtekst{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        padding-top: 30px;
+    
+    
+    }
+    .ikoner{
+        display: flex;
+       flex-direction: column;
+        padding-top: 10px;
+    }
+    .ikonn{
+        display: flex;
+       justify-content: space-around;
+    }
+    .ikon{display: flex;
+        height: 60px;
+        width: 60px;
+        padding-left: 15px;
+        padding-right: 6px;
+    
+    }
+    .cta{ display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: solid#584132;
+        background-color: #BBAA99;
+        margin-top: 7px;
+        
+        
+    
+    }
+    .eddievideo{height: 500px;}
+    .backvideo{ position: absolute;
+        right: 0;
+        top:800px;
+        z-index: -1;
+       height: 300px;
+       width: 100%;
+       background-color: #F2EBE8;
+       object-fit: cover;
+    }
+    /*cotton side */
+    .herocotton{ display: flex;
+        height: 250px;
+        width: 100%;
+       background-image: url(cottonbillder/Skærmbillede\ 2024-03-18\ kl.\ 20.36.58.png);
+       background-color: #F2EBE8;
+       background-size: cover;
+       background-repeat: no-repeat;
+       align-items: center;
+       justify-content: end;
+       
+    
+    }
+    .h1c{ color: #CBC1B5;
+        -webkit-text-stroke: 1px #584132;
+       }
+    
+    .herotekstc{ padding-right: 10px;
+        text-align: right;
+    
+    }
+    .cotondetular{ background-image: url(cottonbillder/Group\ 40.png); 
+        background-color: #BBAA99;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        padding: 40px;
+    
+    
+    
+    }
+    .cottondetular{ display: flex;
+    flex-direction: column;
+    text-align: center;}
+    
+    .h3c{ font-family: "omnes-cyrillic-semicondensed", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+    color: #584132;
+    
+    }
+    
+    .grundetilcotton{
+        display: flex;
+    background-color: #F2EBE8;
+        background-image: url(cottonbillder/Group\ 59-2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+    
+    .grunde{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    padding: 40px;
+    
+    }
+    .cottontekst{text-align: left;
+    padding-top: 20px;
+    }
+    .grund{display: flex;
+       gap: 30px;
+        align-items: center;
+    
+    
+    }
+    
+    /*--triks side-- */
+    .herotriks{ display: flex;
+        align-content: center;
+        height: 250px;
+    
+    }
+    .trikstekst{height: 250px;
         padding: 30px;
     
     }
     
-    .hero{display: flex;
-        background-image: url(cottonbillder/hero.pn);
-        background-size: cover;
-       height: 250px;
+    .backvideo2{position: absolute;
+        right: 0;
+        top:0;
+        z-index: -1;
+       height: 400px;
+       width: 100%;
+       object-fit: cover;
+       filter: brightness(70%);}
+    
+    .triksguide{background-color: #BBAA99;
+    background-image: url(cottonbillder/Group\ 59-2-kopi.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
     }
-    .herotekst{
-        display: flex;
-        padding-top: 30%;
-        padding-left: 30%;
-    }
-    .intro{display: flex;
-        background-image: url(cottonbillder/intro.pn);
-        background-size: cover;
-        min-height: 300px;
+    
+    .triksguide2{display: flex;
+        flex-direction: column;
+        text-align: center;
+    padding: 40px;
     
     }
-
+    .triksguide3{ display: flex;
+        gap: 30px;
+         align-items: center;}
+    
+    
+          /*  kost side */
+    
+        .herokost{
+    height: 250px;
+        }
+        .kosthero{display: flex;
+            align-items: center;
+            align-content: center;
+            align-self: center;
+            justify-content: center;
+            justify-self: center;
+            justify-items: center;
+    
+        }
+    
+        .kostimg{max-height: 70px;
+            padding-top: 50px;
+          
+    
+        }
+        .backvideo3{ position: absolute;
+            right: 0;
+            top:0;
+            z-index: -1;
+           height: 315px;
+           width: 100%;
+           object-fit: cover;
+           filter: brightness(70%);
+        
+        }
+    .kostgav{
+        background-image: url(cottonbillder/Group\ 40.png); 
+        background-color: #BBAA99;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 80vh;
+       
+    }
+    .kostgav2{display: flex;
+        flex-direction: column;
+        text-align: center;
+    padding: 40px;
+    
+        }
+    .kostgav3{display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
+        
+    
+    }
+    .kosttekst{
+        text-align: center;
+    }
+    .foder{background-color: #F2EBE8;
+        background-image: url(cottonbillder/Group\ 59-2.png); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+    
+    }
+    .foder2{padding: 30px;
+        padding-top: 50px;
+    
+    }
+    .foder3{text-align: center;
+    
+    }
+    .pelsogpleje{background-image: url(cottonbillder/Group\ 35.png);
+        background-color: #F2EBE8;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 550px;
+    
+    }
+    .pogp{display: flex;
+        padding: 30px;
+    
+    }
+    .pelsimg{
+        width: 300px;
+        padding: 30px;
+    }
+    .pelsogpleje2{padding: 30px;
+        text-align: center;
+    }
+    .Klipning{background-color: #F2EBE8;
+        background-image: url(cottonbillder/Group\ 59-2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+    
+    }
+    .Klipning1{display: flex;
+        flex-direction: column;
+        padding: 30px;
+        align-items: center;
+        padding-top: 50px;
+    
+    }
+    .Klipning2{padding: 30px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    
+    }
+    
+    .footerimg{height: 200px;
+        background-image: url(cottonbillder/Group\ 66.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        top:1000px;
+        width: 100%;
+        background-color: #F2EBE8;
+    
+    }
+    .footertekst{
+    display: flex;
+    padding-top: 100px;
+    padding-left:200px ;
+    }
+    footer{
+        height: 200px
+    }
+    .footerimg2{height: 200px;
+        background-image: url(cottonbillder/Group\ 66.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    background-color:#F2EBE8 ;}
+    .footertekst2{display: flex;
+        padding-top: 100px;
+        padding-left:200px ;}
    
 
 }

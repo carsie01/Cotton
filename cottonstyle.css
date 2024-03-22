@@ -78,7 +78,7 @@ nav{display: flex;
     bottom: 130px;
     right: 0;
     width: 100%;
-    height: 500px;
+    height: 550px;
     background-image: url(cottonbillder/Group\ 59.png);
     background-size: cover;
     flex-direction: column;
@@ -787,13 +787,15 @@ gap: 40px;
     padding-left:200px ;
     }
     footer{
-        height: 200px
+        height: 200px;
+        width: 100%;
     }
     .footerimg2{height: 400px;
         background-image: url(cottonbillder/Group\ 66.png);
         background-size: cover;
         background-repeat: no-repeat;
-    background-color:#F2EBE8 ;}
+    background-color:#F2EBE8 ;
+width: 100%;}
     .footertekst2{display: flex;
         padding-top: 100px;
         padding-left:200px ;}
@@ -1222,7 +1224,8 @@ gap: 40px;
         padding-left:200px ;
         }
         footer{
-            height: 800px
+            height: 800px;
+            width: 100%;
         }
         .footerimg2{height: 800px;
             background-image: url(cottonbillder/Group\ 66.png);

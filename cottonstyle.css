@@ -800,3 +800,403 @@ gap: 40px;
    
 
 }
+@media only screen and (min-width:110px)  {
+    h1{font-size: 60px;}
+    h2{font-size: 40px;}
+    h2{font-size: 30px;}
+        header{
+            display: flex;
+            justify-content: center;
+           background-image: url(cottonbillder/header.png);
+           background-size: cover;
+           background-color: #F2EBE8;
+        }
+        nav{display: flex;
+            align-items: center;
+            gap: 5%;
+        
+        }
+        .logo{ max-width: 80px;}
+        
+        
+        .hero{display: flex;
+            width: 100%;
+            background-image: url(cottonbillder/Group\ 59-3.png);
+            background-size: cover;
+            flex-direction: column;
+            min-height: 500px;
+            align-items: center;
+            background-color: #F2EBE8;
+        }
+        .herotekst{
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+            padding-top: 40px;
+            
+        }
+        .cotton{
+            height: 150px;
+            width: 300px;
+            display: flex;
+            align-self: flex-end;
+            
+        }
+        .intro{display: flex;
+            width: 100%;
+            height: 500px;
+            z-index: 1;
+            background-image: url(cottonbillder/Group\ 59.png);
+            background-size: cover;
+            flex-direction: column;
+            background-color: #F2EBE8;
+        }
+        .introtekst{
+            display: flex;
+            flex-direction: column;
+          justify-content: center;
+          justify-self: center;
+          justify-items: center;
+          padding: 20px;
+          margin-top: 15px;
+          max-width: 500px;
+        
+        }
+        .valg{
+            display: flex;
+            width: 100%;
+            height: 400px;
+            background-image: url(cottonbillder/Rectangle\ 22.png);
+            background-size: cover;
+            flex-direction: column;
+            background-color: #F2EBE8;
+            justify-content: center;
+            
+        
+        }
+        .valgtekst{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-self: center;
+            align-items: center;
+            padding-top: 100px;
+        
+        
+        }
+        .ikoner{
+            display: flex;
+           flex-direction: column;
+            padding-top: 10px;
+        }
+        .ikonn{
+            display: flex;
+           justify-content: space-around;
+        }
+        .ikon{display: flex;
+            height: 80px;
+            width: 80px;
+            padding-left: 15px;
+            padding-right: 6px;
+        
+        }
+        .cta{ display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-self: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border: solid#584132;
+            background-color: #BBAA99;
+            margin-top: 7px;
+            
+            
+        
+        }
+        .eddievideo{height: 400px;}
+        .backvideo{ display: flex;
+            right: 0;
+            bottom:0;
+           height: 600px;
+           width: 100%;
+           z-index: -1;
+           background-color: #F2EBE8;
+           object-fit: cover;
+        }
+        /*cotton side */
+        .herocotton{ display: flex;
+            height: 400px;
+            width: 100%;
+           background-image: url(cottonbillder/Skærmbillede\ 2024-03-18\ kl.\ 20.36.58.png);
+           background-color: #F2EBE8;
+           background-size: cover;
+           background-repeat: no-repeat;
+           align-items: center;
+           justify-content: end;
+           
+        
+        }
+        .h1c{ color: #CBC1B5;
+            -webkit-text-stroke: 1px #584132;
+           }
+        
+        .herotekstc{ padding-right: 10px;
+            text-align: right;
+        
+        }
+        .cotondetular{ background-image: url(cottonbillder/Group\ 40.png); 
+            background-color: #BBAA99;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 550px;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            padding-top: 80px;
+            
+        
+        
+        
+        }
+        .cottondetular{ display: flex;
+        flex-direction: column;
+        text-align: center;
+        max-width: 600px;
+      }
+        
+        .h3c{ font-family: "omnes-cyrillic-semicondensed", sans-serif;
+            font-weight: 900;
+            font-style: normal;
+        color: #584132;
+      
+        
+        }
+        
+        .grundetilcotton{
+            display: flex;
+            justify-content: center;
+        background-color: #F2EBE8;
+            background-image: url(cottonbillder/Group\ 59-2.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-top: 40px;
+            padding-bottom: 40px;
+          
+        
+        }
+        
+        .grunde{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        padding: 40px;
+        max-width: 600px;
+        
+        }
+        .cottontekst{text-align: left;
+        padding-top: 20px;
+        }
+        .grund{display: flex;
+           gap: 50px;
+            align-items: center;
+            padding-top: 40px;
+        
+        
+        }
+        
+        /*--triks side-- */
+        .herotriks{ display: flex;
+            align-content: center;
+            height: 400px;
+        
+        }
+        .trikstekst{height: 350px;
+            padding: 50px;
+        
+        }
+        
+        .backvideo2{position: absolute;
+            right: 0;
+            top:0;
+            z-index: -1;
+           height: 500px;
+           width: 100%;
+           object-fit: cover;
+           filter: brightness(70%);}
+        
+        .triksguide{background-color: #BBAA99;
+        background-image: url(cottonbillder/Group\ 59-2-kopi.png); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+            padding-bottom: 40px;
+    
+        }
+        
+        .triksguide2{display: flex;
+            flex-direction: column;
+            text-align: center;
+        padding: 40px;
+        max-width: 600px;
+        
+        
+        }
+        .triksguide3{ display: flex;
+            gap: 50px;
+             align-items: center;
+             padding-top: 40px;}
+        
+        
+              /*  kost side */
+        
+            .herokost{
+         height: 400px;
+            }
+            .kosthero{display: flex;
+                align-content: center;
+                align-self: center;
+                justify-content: center;
+              
+        
+            }
+        
+            .kostimg{max-height: 150px;
+                padding-top: 50px;
+              
+        
+            }
+            .backvideo3{ position: absolute;
+                right: 0;
+                top:0;
+                z-index: -1;
+               height: 500px;
+               width: 100%;
+               object-fit: cover;
+               filter: brightness(70%);
+            
+            }
+        .kostgav{
+            background-image: url(cottonbillder/Group\ 40.png); 
+            background-color: #BBAA99;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 80vh;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+        }
+        .kostgav2{display: flex;
+            flex-direction: column;
+        padding: 40px;
+        max-width: 600px;
+        justify-content: center;
+       
+        
+            }
+        .kostgav3{display: flex;
+    gap: 40px;
+            padding-top: 20px;
+            padding-bottom: 40px;
+            
+        
+        }
+        .kosttekst{max-width: 600px;
+    
+        }
+        .foder{background-color: #F2EBE8;
+            background-image: url(cottonbillder/Group\ 59-2.png); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 500px;
+    
+        
+        }
+        .foder2{padding: 30px;
+            padding-top: 50px;
+    
+        
+        }
+        .foder3{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            max-width: 600px;
+            
+        
+        }
+        .pelsogpleje{background-image: url(cottonbillder/Group\ 35.png);
+            background-color: #F2EBE8;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 550px;
+        
+        }
+        .pogp{display: flex;
+            padding: 30px;
+        
+        }
+        .pelsimg{
+            width: 300px;
+            padding: 30px;
+        }
+        .pelsogpleje2{padding: 30px;
+            text-align: center;
+        }
+        .Klipning{background-color: #F2EBE8;
+            background-image: url(cottonbillder/Group\ 59-2.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+        
+        }
+        .Klipning1{display: flex;
+            flex-direction: column;
+            padding: 30px;
+            align-items: center;
+            padding-top: 50px;
+        
+        }
+        .Klipning2{padding: 30px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        
+        }
+        
+        .footerimg{height: 400px;
+            background-image: url(cottonbillder/Group\ 66.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: absolute;
+            top:2000px;
+            width: 100%;
+            background-color: #F2EBE8;
+        
+        }
+        .footertekst{
+        display: flex;
+        padding-top: 100px;
+        padding-left:200px ;
+        }
+        footer{
+            height: 200px
+        }
+        .footerimg2{height: 400px;
+            background-image: url(cottonbillder/Group\ 66.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        background-color:#F2EBE8 ;}
+        .footertekst2{display: flex;
+            padding-top: 100px;
+            padding-left:200px ;}
+       
+    
+    }
